@@ -398,7 +398,7 @@ a:hover {
 }
 
 .iris:hover {
-  transition: 1.2s;
+  transition: 1.5s;
   margin-top: -65px;
 }
 
@@ -570,7 +570,7 @@ a:hover {
 }
 
 .labiosuperior:hover {
-  transition: 0.35s;
+  transition: 0.40s;
   background: darkred;
   height: 40px;
   border-radius: 15% 15% 50% 50%;
