@@ -1,0 +1,332 @@
+/*--  GENERAL --*/
+
+nav {
+  display: block;
+  position: fixed;
+  height: 4%;
+  width: 2%;
+  right: 49%;
+  bottom: 50%;
+  background-color: purple;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow:
+    0 0 5px purple,
+    0 0 10px purple,
+    0 0 15px purple,
+    0 0 25px purple;
+}
+
+b {
+  display: inline-block;
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+  text-shadow:
+    0 0 10px grey,
+    0 0 15px darkgrey;
+}
+
+body {
+  background-color: #1A1A1A;
+  color: white;
+}
+
+article {
+  float: left;
+  width: 42.5%;
+  margin-left: 5%;
+  background-color: none;
+}
+
+h2 {
+  width: 5em;
+  height: 5em;
+  margin-top: 5%;
+  float:left;
+  display: block;
+  background-color: white;
+  background-size: cover;
+  border-radius: 25%;
+  }
+
+h3 {
+  margin-top: 6%;
+  margin-left: 7em;
+  text-shadow:
+    0 0 10px grey,
+    0 0 15px darkgrey;
+}
+
+h4, h5{
+  margin-left: 7em;
+  margin-top: 0.5em;
+}
+
+h5 {
+  margin-bottom: 2em;
+  text-shadow:
+    0 0 10px grey,
+    0 0 15px darkgrey;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+  text-shadow:
+}
+
+a:visited {
+  color: white;
+}
+
+ul {
+  display: block;
+  float: left;
+  width: 95%;
+  margin: 0 5% 2em 0;
+  border-radius: 0.5em;
+}
+
+li {
+  display: block;
+  float: left;
+  height: 3.1em;
+  width: 3.1em;
+  margin: 2em 6%;
+  background-size: cover;
+}
+
+.win {
+  background-image: url(../img/windows.png);
+}
+
+.mac {
+    background-image: url(../img/mac.png);
+    border-radius: 100%;
+}
+
+.lin {
+  display: none;
+    background-image: url(../img/linux.png);
+}
+
+.web {
+    background-image: url(../img/web.png);
+}
+
+.and {
+  background-image: url(../img/android.png);
+}
+
+.ios {
+  background-image: url(../img/ios.png);
+}
+
+div {
+  float: left;
+  width: 100%;
+  margin-bottom: 2em;
+  border-radius: 0.5em;
+  text-shadow:
+    0 0 10px grey,
+    0 0 15px darkgrey;
+}
+
+.captures > img {
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin: 6%;
+  margin-top: 3%;
+}
+
+h6 {
+  padding: 0;
+  margin: 1em;
+  font-size: 1em;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+p {
+  margin: 1em;
+  margin-bottom: 1.5em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*--  GENERAL --*/
+
+/*------------------------*/
+
+/*--  YOUTUBE  --*/
+
+article:nth-child(even) strong {
+  color: #fd3832;
+  text-shadow:
+    0 0 5px #fd3832,
+    0 0 10px FireBrick,
+    0 0 15px DarkRed;
+}
+
+article:nth-child(even) h2 {
+  background-image: url(../img/youtube.png);
+  box-shadow:
+    0 0 5px #fd3832,
+    0 0 10px #fd3832,
+    0 0 15px #fd3832,
+    0 0 20px FireBrick,
+    0 0 30px FireBrick,
+    0 0 60px DarkRed;
+}
+
+article:nth-child(even) a:hover {
+  color: #fd3832;
+  text-shadow:
+    0 0 5px #fd3832,
+    0 0 10px #fd3832,
+    0 0 15px FireBrick,
+    0 0 20px DarkRed;
+}
+
+article:nth-child(even) a {
+  text-shadow:
+    0 0 5px #fd3832,
+    0 0 10px #fd3832,
+    0 0 15px FireBrick,
+    0 0 20px DarkRed;
+}
+
+article:nth-child(even) ul {
+  box-shadow:
+    0 0 10px white,
+    0 0 5px #fd3832,
+    0 0 10px #fd3832,
+    0 0 15px #fd3832,
+    0 0 20px FireBrick,
+    0 0 30px FireBrick,
+    0 0 60px DarkRed,
+    0 0 10px white inset,
+    0 0 5px #fd3832 inset,
+    0 0 10px #fd3832 inset,
+    0 0 15px #fd3832 inset,
+    0 0 20px FireBrick inset,
+    0 0 30px FireBrick inset,
+    0 0 60px DarkRed inset;
+}
+
+article:nth-child(even) div {
+  box-shadow:
+    0 0 10px white,
+    0 0 5px #fd3832,
+    0 0 10px #fd3832,
+    0 0 15px #fd3832,
+    0 0 20px FireBrick,
+    0 0 30px FireBrick,
+    0 0 60px DarkRed,
+    0 0 10px white inset,
+    0 0 5px #fd3832 inset,
+    0 0 10px #fd3832 inset,
+    0 0 15px #fd3832 inset,
+    0 0 20px FireBrick inset,
+    0 0 30px FireBrick inset,
+    0 0 60px DarkRed inset;
+}
+
+article:nth-child(even) .avantantges {
+  box-shadow: none;
+}
+
+article:nth-child(even) .inconvenients {
+  box-shadow: none;
+}
+
+/*--  YOUTUBE  --*/
+
+/*------------------------*/
+
+/*--  VIMEO  --*/
+
+article:nth-child(odd) strong {
+  color: #00adef;
+  text-shadow:
+    0 0 5px #00adef,
+    0 0 10px steelblue,
+    0 0 15px royalblue;
+}
+
+article:nth-child(odd) h2 {
+  background-image: url(../img/vimeo.png);
+  box-shadow:
+    0 0 5px #00adef,
+    0 0 10px #00adef,
+    0 0 15px #00adef,
+    0 0 20px steelblue,
+    0 0 30px steelblue,
+    0 0 60px royalblue;
+}
+
+article:nth-child(odd) a:hover {
+  color: #00adef;
+  text-shadow:
+    0 0 5px #00adef,
+    0 0 10px #00adef,
+    0 0 15px steelblue,
+    0 0 20px royalblue;
+}
+
+article:nth-child(odd) a {
+  text-shadow:
+    0 0 5px #00adef,
+    0 0 10px #00adef,
+    0 0 15px steelblue,
+    0 0 20px royalblue;
+}
+
+article:nth-child(odd) ul {
+  box-shadow:
+    0 0 10px white,
+    0 0 5px #00adef,
+    0 0 10px #00adef,
+    0 0 15px #00adef,
+    0 0 20px steelblue,
+    0 0 30px steelblue,
+    0 0 60px royalblue,
+    0 0 10px white inset,
+    0 0 5px #00adef inset,
+    0 0 10px #00adef inset,
+    0 0 15px #00adef inset,
+    0 0 20px steelblue inset,
+    0 0 30px steelblue inset,
+    0 0 60px royalblue inset;
+}
+
+article:nth-child(odd) div {
+  box-shadow:
+    0 0 10px white,
+    0 0 5px #00adef,
+    0 0 10px #00adef,
+    0 0 15px #00adef,
+    0 0 20px steelblue,
+    0 0 30px steelblue,
+    0 0 60px royalblue,
+    0 0 10px white inset,
+    0 0 5px #00adef inset,
+    0 0 10px #00adef inset,
+    0 0 15px #00adef inset,
+    0 0 20px steelblue inset,
+    0 0 30px steelblue inset,
+    0 0 60px royalblue inset;
+}
+
+article:nth-child(odd) .avantantges {
+  box-shadow: none;
+}
+
+article:nth-child(odd) .inconvenients {
+  box-shadow: none;
+}
+
+/*--  VIMEO  --*/

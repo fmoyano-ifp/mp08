@@ -1,0 +1,40 @@
+div {
+  float: left;
+  font-size: 2em;
+  font-family: arial, sans-serif;
+}
+
+h2 {
+  clear:both;
+}
+
+.primer {
+  width: 5em;
+  height: 5em;
+  margin: 1em;
+  background-color: aquamarine;
+  color: orange;
+}
+
+.segon {
+  width: 30%;
+  height: 5em;
+  margin: 1.6%;
+  background-color: tomato;
+  color: yellow;
+}
+
+.contenidor {
+  float: none;
+  width: 42em;
+  background-color: black;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.tercer {
+  width: 5em;
+  margin: 1em;
+  background-color: yellowgreen;
+  color: azure;
+}

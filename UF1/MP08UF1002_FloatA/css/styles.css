@@ -1,0 +1,52 @@
+div {
+  background-color: aquamarine;
+  height: 10em;
+  width: 10em;
+  background-image: url(../img/L.jpg);
+  background-size: 100% 100%;
+}
+
+.floatE {
+  float: left;
+  margin: 0 1em 1em 0;
+  background-image: url(../img/loulogio.jpg);
+}
+
+.floatR {
+  float: right;
+  margin: 0 1em 1em 0;
+  background-image: url(../img/chema.jpeg);
+}
+
+.capitular {
+  float: left;
+  margin: 0 0.3em 0.2em 0;
+  background-image: url(../img/l.jpg);
+  height: 2em;
+  width: 2em;
+}
+
+h2 {
+  clear: both;
+}
+
+span {
+  color: aquamarine;
+  visibility: hidden;
+  /* nomes fa invisibe pero segueix ocupant l'espai*/
+  display: none;
+  /* elimina completament l'element */
+}
+
+.columna {
+  width: 40%;
+  margin: 0 5%;
+}
+
+.esquerra {
+  float: left;
+}
+
+.dreta {
+  float: right;
+}

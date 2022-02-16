@@ -1,0 +1,135 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: "Helvetica Neue", Sans-serif;
+  color: #666;
+  font-size: 13px;
+}
+
+h1 {
+  margin: 0;
+  width: 390px;
+  padding: 30px;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  width: 390px;
+  /*padding: 0(top) 30px(right) 0(bottom) 30px(left);*/
+  padding: 0 30px;
+  /* abreviatura*/
+}
+
+ul {
+  list-style: none;
+  padding: 0 0 0 25px;
+  margin: 10px 0 0 0;
+  width: 740px;
+  display: inline-block;
+  vertical-align: top;
+  height: 30px;
+  text-align: ;
+}
+
+li {
+  background-color: #6c3;
+  list-style-type: none;
+  display: inline-block;
+  height: 17px;
+  margin: 0;
+  padding: 6px;
+  border: 1px solid #6c3;
+  border-radius: 10px 10px 0 0;
+}
+
+li:hover {
+  background-color: #fff;
+}
+
+div {
+  background-repeat: no-repeat;
+  background-position: 450px 0;
+}
+
+.logo {
+  margin: 5px 0 0 5px;
+}
+
+.blanca {
+  background-color: #FFF;
+}
+
+.verd {
+  background-color: #6c3;
+  height: 550px;
+}
+
+.gris {
+  background-color: #EEECEE;
+}
+
+.negre {
+  background-color: #333;
+}
+
+.color2 {
+  color: #ccc;
+}
+
+#menu {
+  height: 40px
+}
+
+#coneix {
+  background-image: url(../img/img-hero-full-list.png);
+}
+
+#tot {
+  height: 641px;
+  background-image: url(../img/allinone.jpg);
+}
+
+#util {
+  height: 500px;
+  background-image: url(../img/curator-short.png);
+}
+
+#rapid {
+  height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+}
+
+#facil {
+  background-image: url(../img/mobile-share.png);
+  background-position: 450px 15px;
+}
+
+#arreu {
+  height: 643px;
+  background-image: url(../img/anywhere.png);
+}
+
+#descarrega {
+  height: 200px;
+  text-align: center;
+}
+
+#descarrega img {
+  padding: 30px
+}
+
+.torna {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50px;
+  font-size: 60px;
+  text-align: center;
+  line-height: 110px;
+  box-shadow: black 5px 5px 5px;
+}

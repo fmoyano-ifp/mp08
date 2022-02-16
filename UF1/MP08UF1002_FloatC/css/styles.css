@@ -1,0 +1,47 @@
+div {
+  float: left;
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  float: none;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  width: 1200px;
+  background-color: blue;
+  text-align: center;
+  color: azure;
+}
+
+.home {
+  width: 200px;
+  margin: auto;
+  background-color: skyblue;
+}
+
+.timeline {
+  width: 720px;
+  height: 805px;
+  margin: 0 40px;
+  background-color: azure;
+  overflow: scroll;
+}
+
+.contacts {
+  width: 200px;
+  margin: 0 auto;
+  background-color: skyblue;
+}
+
+.bottom {
+  width: 1200px;
+  height: 50px;
+  background-color: blue;
+  text-align: center;
+  color: azure;
+}
