@@ -1,0 +1,189 @@
+body {
+  background-image: url(../img/grid.png);
+  background-size: contain;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.header {
+  width: 72%;
+  height: 3vw;
+  background: white;
+  margin-left: 14%;
+  box-shadow: 0.15vw 0.15vw #87ceda,
+  -0.15vw -0.15vw #ff2d6e;
+}
+
+.title {
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.1vw;
+  color: black;
+  text-shadow: 0.11vw 0.11vw #87ceda,
+  -0.11vw -0.11vw #ff2d6e;
+  float: left;
+  display: block;
+  margin: 0;
+}
+
+p {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #ff2d6e;
+  text-shadow: 0.08vw 0.08vw #87ceda;
+  float: left;
+  display: block;
+  margin: 0;
+}
+
+.center {
+  float: left;
+  width: 70%;
+  height: 90%;
+  background: yellow;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 0.6rem;
+  margin: 0.6rem 15%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+
+.activitats {
+  display: block;
+  width: 90%
+  height: 30vh;
+}
+
+.lateral {
+  position: fixed;
+  width: 10%;
+  height: 50vw;
+}
+
+.left {
+  top:10%;
+  left: 2.5%;
+  animation: lateral 6s linear alternate 1.5s infinite;
+}
+
+.flip {
+  width: 100%;
+  height: 6.5%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 2.5%;
+}
+
+.left1 {
+  background-image: url(../img/rei1.png);
+  animation: spin 6s ease 1.5s infinite;
+}
+
+.left2 {
+  background-image: url(../img/rei2.png);
+  animation: spin1 6s ease 1.5s infinite;
+}
+
+.left3 {
+  background-image: url(../img/rei3.png);
+  animation: spin2 6s ease 1.5s infinite;
+}
+
+.left4 {
+  background-image: url(../img/rei4.png);
+  animation: spin3 6s ease 1.5s infinite;
+}
+
+.right {
+  top:68.2%;
+  right: 2.5%;
+  animation: lateral1 6s linear alternate 1.5s infinite;
+}
+
+.right1 {
+  background-image: url(../img/rei1.png);
+  animation: spin 6s ease 1.5s infinite;
+}
+
+.right2 {
+  background-image: url(../img/rei2.png);
+  animation: spin1 6s ease 1.5s infinite;
+}
+
+.right3 {
+  background-image: url(../img/rei3.png);
+  animation: spin2 6s ease 1.5s infinite;
+}
+
+.right4 {
+  background-image: url(../img/rei4.png);
+  animation: spin3 6s ease 1.5s infinite;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(1080deg);
+  }
+}
+
+@keyframes spin1 {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(720deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(1800deg);
+  }
+}
+
+@keyframes spin3 {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(1440deg);
+  }
+}
+
+@keyframes lateral {
+  0% {
+    top:10%;
+  }
+  100% {
+    top:68.2%;
+  }
+}
+
+@keyframes lateral1 {
+  0% {
+    top:68.2%;
+  }
+  100% {
+    top:10%;
+  }
+}
