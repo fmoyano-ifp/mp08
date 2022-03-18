@@ -1,0 +1,344 @@
+@media screen and (max-width:770px) {
+
+  /*GENERAL*/
+
+  * {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  *::-webkit-scrollbar {
+    width: 0.4vh;
+    height: 0.4vh;
+  }
+
+  *::-webkit-scrollbar-thumb {
+      background: white;
+      border-radius: 0.25vh;
+  }
+
+  body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /*GENERAL*/
+
+
+  /*TITULO*/
+
+  .header {
+    width: 100%;
+    height: 7vh;
+    margin-left: 0vw;
+    margin-bottom: 0.5vh;
+    margin-top: 6.5vh;
+    animation: center 1.6s ease 0s infinite;
+  }
+
+
+  h1{
+    font-size: 7vw;
+    letter-spacing: 0.15vw;
+    color: white;
+    text-shadow: 0.4vw 0.4vw #87ceda,
+    -0.4vw -0.4vw #ff2d6e;
+    float: left;
+    display: block;
+    margin: 0;
+    margin-top: 0.3vh;
+    display: block;
+    visibility: visible;
+    animation: center 1.6s ease 0s infinite;
+  }
+
+  .pheader {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #ff2d6e;
+    text-shadow: 0.2vw 0.2vw #87ceda;
+    float: left;
+    display: block;
+    margin: 2.2vw 0.2vw 0 3vw;
+    visibility: visible;
+    animation: center 1.6s ease alternate 0s infinite;
+  }
+
+  .dos {
+    margin-left: 0;
+  }
+
+  /*TITULO*/
+
+
+  /*CENTRO*/
+
+  .center {
+    width: 100%;
+    height: 77vh;
+    background: transparent;
+    overflow-y: scroll;
+    overflow-x: visible;
+    animation: center 1.6s ease 0s infinite;
+    margin-left: 2.5%;
+    margin-top: 5vh;
+  }
+
+  .center:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes center {
+    0% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(0.3deg);
+    }
+
+    75% {
+      transform: rotate(-0.3deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .activitats {
+    display: block;
+    width: 90%;
+  }
+
+  .uf {
+    width: 95%;
+    height: 18vh;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 4%;
+    overflow-x: scroll;
+    border-radius: 0.25vh;
+    animation: center 1s ease alternate 0s infinite,
+  }
+
+  .uf:hover {
+    animation-play-state: paused;
+  }
+
+  #ufheader {
+    width: 100%;
+    height: 3.3vw;
+    margin-top: 0.5vh;
+    margin-left: 0;
+    margin-bottom: 1vh;
+    animation: center 1s ease 0s infinite;
+    visibility: visible;
+  }
+
+  #ufheader:hover {
+    animation-play-state: paused;
+  }
+
+  h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vw;
+    letter-spacing: 0.10vh;
+    color: #F0F0F0;
+    text-shadow: 0.09vh 0.09vh #87ceda,
+    -0.09vh -0.09vh #ff2d6e;
+    float: left;
+    margin-left: 1vh;
+  }
+
+  .interior {
+    height: auto;
+    width: 162vh;
+    margin: 0 2vh;
+    margin-top: 1.9vh;
+  }
+
+  .practica {
+    width: 14.2vh;
+    height: 14.2vh;
+    display: block;
+    float: left;
+    background: #ff2d6e;
+    background: url(../img/cuadricula.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin-right: 2vh;
+    border-radius: 0.25vh;
+    animation: centeru 1.6s ease 0s infinite;
+  }
+
+  .practica:hover {
+    animation-play-state: paused;
+  }
+
+  .activitext {
+    width: 100%;
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 5.7vh;
+  }
+
+  a:link {
+    color: white;
+    transition: 0.5s;
+  }
+
+  a:hover {
+    color: white;
+    text-shadow: 0.1vh 0.1vh #87ceda,
+    -0.1vh -0.1vh #ff2d6e;
+    transition: 0.4s;
+  }
+
+  a:active {
+    color: silver;
+  }
+
+  a:visited{
+    color: black;
+  }
+
+  @keyframes centeru {
+    0% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(0.6deg);
+    }
+
+    75% {
+      transform: rotate(-0.6deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  /*CENTRO*/
+
+
+  /*UF4*/
+
+  .uf4 {
+    margin-bottom: 0;
+  }
+
+  /*UF4*/
+
+
+  /* ANIMACION LATERAL */
+
+  .lateral {
+    position: fixed;
+    width: 40%;
+    z-index: -1;
+  }
+
+  .left {
+    top:10%;
+    left: 2.5%;
+    animation: lateral 6s linear alternate infinite,
+  center 1s ease alternate infinite;
+  }
+
+  .flip {
+    width: 100%;
+    height: 13vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 2.5%;
+  }
+
+  .left:hover, .left:hover .flip{
+    animation-play-state: paused;
+  }
+
+  .left1 {
+    background-image: url(../img/rei1.png);
+    animation: spin 6s ease 1.5s infinite;
+  }
+
+  .left2 {
+    background-image: url(../img/rei2.png);
+    animation: spin1 6s ease 1.5s infinite;
+  }
+
+  .left3 {
+    background-image: url(../img/rei3.png);
+    animation: spin2 6s ease 1.5s infinite;
+  }
+
+  .left4 {
+    background-image: url(../img/rei4.png);
+    animation: spin3 6s ease 1.5s infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(1080deg);
+    }
+  }
+
+  @keyframes spin1 {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(720deg);
+    }
+  }
+
+  @keyframes spin2 {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(1800deg);
+    }
+  }
+
+  @keyframes spin3 {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(1440deg);
+    }
+  }
+
+  @keyframes lateral {
+    0% {
+      top:10%;
+    }
+    100% {
+      top:68.2%;
+    }
+  }
+
+  @keyframes lateral1 {
+    0% {
+      top:68.2%;
+    }
+    100% {
+      top:10%;
+    }
+  }
+
+  /* ANIMACION LATERAL */
+  }
+
+}
