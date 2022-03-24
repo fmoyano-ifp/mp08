@@ -200,7 +200,6 @@
     color: white;
     text-shadow: 0.1vh 0.1vh #87ceda,
     -0.1vh -0.1vh #ff2d6e;
-    transition: 0.4s;
   }
 
   a:active {
