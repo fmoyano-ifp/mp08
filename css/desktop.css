@@ -157,10 +157,10 @@ h2 {
 }
 
 .interior {
-  height: auto;
+  height: 20vw;
   width: 162vw;
   margin: 0 2vw;
-  margin-top: 1.9vw;
+  margin-top: 1vw;
 }
 
 .practica {
@@ -173,12 +173,16 @@ h2 {
   background-repeat: repeat-x;
   background-size: contain;
   margin-right: 2vw;
+  margin-top: 0.9vw;
   border-radius: 0.25vw;
   animation: centeru 1.6s ease 0s infinite;
 }
 
 .practica:hover {
   animation-play-state: paused;
+  box-shadow: 0.15vw 0.15vw #87ceda,
+  -0.15vw -0.15vw #ff2d6e;
+  transition: 0.4s;
 }
 
 .activitext {
