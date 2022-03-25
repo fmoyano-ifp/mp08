@@ -159,7 +159,6 @@ h2 {
 .interior {
   height: 20vw;
   width: 162vw;
-  margin: 0 2vw;
   margin-top: 1vw;
 }
 
@@ -172,7 +171,7 @@ h2 {
   background: url(../img/cuadricula.png);
   background-repeat: repeat-x;
   background-size: contain;
-  margin-right: 2vw;
+  margin-left: 2vw;
   margin-top: 0.9vw;
   border-radius: 0.25vw;
   animation: centeru 1.6s ease 0s infinite;
@@ -194,7 +193,6 @@ h2 {
 
 a:link {
   color: white;
-  transition: 0.5s;
 }
 
 a:hover {

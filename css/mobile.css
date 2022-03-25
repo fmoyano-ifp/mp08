@@ -158,7 +158,6 @@
   .interior {
     height: auto;
     width: 162vh;
-    margin: 0 2vh;
     margin-top: 1vh;
   }
 
@@ -171,7 +170,7 @@
     background: url(../img/cuadricula.png);
     background-repeat: repeat-x;
     background-size: contain;
-    margin-right: 2vh;
+    margin-left: 2vh;
     margin-top: 0.9vh;
     border-radius: 0.25vh;
     animation: centeru 1.6s ease 0s infinite;
@@ -193,7 +192,6 @@
 
   a:link {
     color: white;
-    transition: 0.5s;
   }
 
   a:hover {
