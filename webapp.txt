@@ -1,0 +1,8 @@
+<html lang="ca" dir="ltr" manifest="cache/cache.manifest">
+
+<!-- Webapp -->
+<meta name="theme-color" content="#ff2d6e">
+<meta name="msapplication-navbutton-color" content="#87ceda">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="yes">
+<!-- Webapp -->
